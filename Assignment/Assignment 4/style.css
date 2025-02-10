@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #2736a0;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffca28;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #2736a0;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header h4 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+header img {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Ensure it's equal to width for a perfect circle */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fills the circular shape properly */
+    border: 4px solid yellow; /* Optional border */
+}
+
+/* Sections */
+section {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1a237e;
+    border-bottom: 3px solid #1a237e;
+    padding-bottom: 5px;
+}
+
+p{
+    line-height: 50 in;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1a237e;
+    color: #ffffff;
+}
+
+td {
+    background-color: #fafafa;
+    grid-column: 2;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Contact Section */
+#Contact ul {
+    padding: 0;
+}
+
+#Contact li {
+    margin: 10px 0;
+}
+
+#Contact a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+#Contact a:hover {
+    color: blueviolet;
+}
+
+footer p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    background-color: #1a237e;
+    color: #ffffff;
+}
+/* Responsive Design */
+/* @media (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+} */
